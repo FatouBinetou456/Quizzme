@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sur le développement Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">¿Quizme‽</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Accueil</a>
+                <a href="about.html">&Aacute; propos</a>
+                <a href="help.html">Aide</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Développement Web</span>
+                        <span class="header-score">SCORE: 0/20</span>
+                    </div>
+
+                    <h2 class="question-text">Que signifie HTML?</h2>
+                    <div class="option-list">
+                        
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">Question 1 sur 20</span>
+                        <button class="next-btn">Suivant</button>
+                    </div>
+
+                </div>
+
+                <div class="result-box">
+                    <h2>Résultat Final:</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Score Final: 0 sur 20</span>
+                    </div>
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Réessayez</button>
+                        <button class="goHome-btn">Accueil</button>
+
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quizz sur le developpement Web</h1>
+                    <br>
+                    <p>Prêt à tester vos compétences en développement web ? Notre quizz couvre une variété de sujets liés au développement web, du HTML au JavaScript. </p>
+                    <button class="start-btn">Démarrer le quizz</button>
+                 </div>
+            </section>
+        </div>
+    </main>
+    
+    <div class="popup-info">
+        <h2>Guide d'utilisation</h2>
+        <span class="info">1. Il y a 1 seule bonne reponse par question. Chaque bonne reponse vaut 1 point </span>
+        <span class="info">2. Si la réponse choisie est correcte elle sera colorée en vert.  </span>
+        <span class="info">3. Si la réponse choisie est incorrecte, elle sera colorée en rouge et la bonne sera en vert </span>
+        <span class="info">4. Vous pouvez passer une question en appuyant sur 'Suivant'. </span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Quitter le Quizz</button>
+            <a href="#" class="info-btn continue-btn">Continuer</a>
+        </div>
+    </div>
+
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
