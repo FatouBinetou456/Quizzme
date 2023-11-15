@@ -110,8 +110,8 @@ let questions = [
 {
     numb:13,
     question: "Quelle propriété CSS permet de mettre en italique le texte",
-    answer: "A. font-style: italic",
-    options: ["A. font-style: italic",
+    answer: "A. font-style: italic;",
+    options: ["A. font-style: italic;",
     "B. text-italic: true;",
     "C. italic-text: on;",
     "D. style: italic;"]
@@ -120,7 +120,7 @@ let questions = [
     numb:14,
     question: " Quel langage pour fixer la structure et le contenu du site ?",
     answer: 'A. HTML',
-    options: ['A. HTML"',
+    options: ['A. HTML',
     'B. CSS',
     'C. Javascript',
     'D. PHP']
@@ -146,7 +146,7 @@ let questions = [
 {
     numb:17,
     question: "Quel langage sert à styliser et mettre en forme une page web ? ",
-    answer: "C. CSS'",
+    answer: "C. CSS",
     options: ["A. Java'",
     "B. HTML",
     "C. CSS",
